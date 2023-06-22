@@ -1,0 +1,88 @@
+/*
+Stylesheet for ZeroSteg.
+Authored by Jason Kim
+August 12, 2019
+*/
+body {
+	font-family: "Roboto Slab", serif;
+	margin: 30px;
+	font-size: 18px;
+	background-color: #ECF9FF;
+	overflow-x: hidden;
+}
+/* For putting encode/decode divs side by side */
+.col{
+	color: #BB0876;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.child {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+textarea {
+	border: 3px solid black;
+	font-family: "Roboto Slab", serif;
+}
+.textarea-small {
+	min-width: 300px;
+	min-height: 150px;
+}
+.result-window {
+	border: 3px solid black;
+	max-width: 600px;
+	min-height: 150px;
+}
+.button-wrap {
+	text-align: center;
+
+	  background: #BB0876;
+	  background-image: -webkit-linear-gradient(top, #BB0876, #BB0876);
+	  background-image: -moz-linear-gradient(top, #BB0876, #BB0876);
+	  background-image: -ms-linear-gradient(top, #BB0876, #BB0876);
+	  background-image: -o-linear-gradient(top, #BB0876, #BB0876);
+	  background-image: linear-gradient(to bottom, #BB0876, #BB0876);
+	  -webkit-border-radius: 30px;
+	  -moz-border-radius: 30px;
+	  border-radius: 30px;
+	  font-family: Arial;
+	  color: #ffffff;
+	  font-size: 30px;
+	  width: 10px;
+		margin-left: 100px;
+	  text-decoration: none;
+		text-align: center;
+	}
+
+	.btn:hover {
+	  background: #000123;
+	  background-image: -webkit-linear-gradient(top, #000123, #000123);
+	  background-image: -moz-linear-gradient(top, #000123, #000123);
+	  background-image: -ms-linear-gradient(top, #000123, #000123);
+	  background-image: -o-linear-gradient(top, #000123, #000123);
+	  background-image: linear-gradient(to bottom, #000123, #000123);
+	  text-decoration: none;
+}
+button {
+	margin: auto;
+	border: none;
+	text-align: center;
+	background-color: #BB0876;
+	color: white;
+	font-size: 16px;
+	padding: 15px 30px;
+	border-radius: 10px;
+	font-family: "Roboto Slab", serif;
+}
+button:hover {
+	border: 3px solid #BB0876;
+}
+a {
+	color: orange;
+}
+h1 {
+	color: orange;
+}
